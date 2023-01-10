@@ -3,13 +3,63 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+nav {
+  margin: 0;
+}
 
+.main {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg,rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
+  height: 100vh;
+}
+
+.projects-pg {
+  margin: 2%;
+}
+
+/* Navbar Component */
+
+.navbar-brand {
+  color: rgb(163, 0, 54);
+}
+
+.navbar-toggler {
+  color: rgb(163, 0, 54);
+}
+
+
+/* Homepage / Hero component */
+
+.hero {
+  height: 50vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  transition: height 1s;
+}
+
+.hero h1 { 
+  font-size: 3.75rem;
+  color:rgb(255, 255, 255);
+}
+
+.hero h2 {
+  color:rgb(2, 98, 136);
+  font-size: 1.75rem;
+  margin-top: 4%;
+}
 
 /* Projects Component  */
 
 .projects-container {
+  height: 100vh;
   text-align: center;
   overflow: hidden;
+}
+
+.projects-container p {
+  text-align: left;
 }
 
 .projects-container a {
@@ -18,7 +68,7 @@
 }
 
 a:hover {
-  color: red;
+  color: rgb(163, 0, 54);
 }
 
 .projects-container img {

@@ -3,8 +3,8 @@ import wompratwebsite from './images/wompratwebsite.png';
 const projects = [
   {
     id: 1,
-    name: 'Womp Rat Bass',
-    description:'This is my personal music website. Built using Node.js Express.js, HTML, CSS (with bootstrap) and Javascript.',
+    name: 'Artist website',
+    description:'This is a website I build to host my own music, and create a call to action to join my mailing list. Built using Node.js Express.js, HTML, CSS (with bootstrap) and Javascript.',
     imgSrc: wompratwebsite,
     href: 'https://wompratbass.onrender.com/',
   },
