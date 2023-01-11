@@ -1,20 +1,12 @@
 /* Top Level / Global Styles for App Component */
 .App {
   font-family: 'Source Code Pro', monospace;
-}
-
-nav {
-  margin: 0;
-}
-
-.main {
+  height: 100%;
   background: rgb(34,193,195);
-  background: linear-gradient(0deg,rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
-  height: 100vh;
 }
 
-.projects-pg {
-  margin: 2%;
+h1 {
+  color:white;
 }
 
 /* Navbar Component */
@@ -27,35 +19,87 @@ nav {
   color: rgb(163, 0, 54);
 }
 
+/* .nav-item {
+  color:whitesmoke;
+} */
+
+
 
 /* Homepage / Hero component */
 
 .hero {
-  height: 50vh;
-  width: 100vw;
+  padding-top: 20%;
+  height: 100vh;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  transition: height 1s;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg,rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
 }
 
 .hero h1 { 
   font-size: 3.75rem;
-  color:rgb(255, 255, 255);
 }
 
 .hero h2 {
   color:rgb(2, 98, 136);
   font-size: 1.75rem;
-  margin-top: 4%;
 }
+
+
+
+
+/* about Me Component */
+
+.aboutMe {
+  padding-top: 3%;
+  height: 100vh;
+  background-color: rgb(34,193,195);
+  color: white;
+}
+
+.aboutMe-con {
+  padding-top: 3%;
+}
+.aboutMe h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(253,187,45,1)
+}
+
+.aboutMe p {
+  font-size: 1.25rem;
+}
+
 
 /* Projects Component  */
 
+.projects-pg {
+  background-color: #4e7c7d;
+  /* background: rgb(2,98,136);
+  background: linear-gradient(0deg, rgba(2,98,136,1) 0%, rgba(60,156,140,1) 50%, rgba(78,124,125,1) 100%); */
+  margin: 0;
+}
+
+.projects-pg h1 {
+  padding-top: 3% ;
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(253,187,45,1)
+}
+
 .projects-container {
+  margin-top: 2%;
   height: 100vh;
   text-align: center;
-  overflow: hidden;
+}
+
+
+.project-card {
+  color: black; 
+  background-color: #82acae;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px #548283;
+  padding: 10px;
+  border-color: black;
 }
 
 .projects-container p {
@@ -77,6 +121,22 @@ a:hover {
 }
 
 
+/* Contact Component */
+
+.contact-pg {
+  height: 100vh;
+  /* background: rgb(148,140,100);
+  background: radial-gradient(circle, rgba(148,140,100,1) 0%, rgba(52,92,100,1) 100%); */
+  background: rgb(60,76,76);
+  background: linear-gradient(0deg, rgba(60,76,76,1) 0%, rgba(2,98,136,1) 100%);
+}
+
+.contact-pg h1 {
+  padding-top: 3%;
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(253,187,45,1)
+}
 
 
 
