@@ -13,15 +13,20 @@ h1 {
 
 .navbar-brand {
   color: rgb(163, 0, 54);
+  padding-left: 3%;
 }
 
 .navbar-toggler {
   color: rgb(163, 0, 54);
 }
 
-/* .nav-item {
+.nav-item {
   color:whitesmoke;
-} */
+}
+
+.ms-auto {
+  padding-right: 2%;
+}
 
 
 
@@ -33,6 +38,12 @@ h1 {
   text-align: center;
   background: rgb(34,193,195);
   background: linear-gradient(0deg,rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
+}
+
+.pfp {
+  border-radius: 50%;
+  scale: 55%;
+  margin: -15%;
 }
 
 .hero h1 { 
@@ -50,7 +61,7 @@ h1 {
 /* about Me Component */
 
 .aboutMe {
-  padding-top: 3%;
+  padding-top: 20%;
   height: 100vh;
   background-color: rgb(34,193,195);
   color: white;
@@ -80,7 +91,7 @@ h1 {
 }
 
 .projects-pg h1 {
-  padding-top: 3% ;
+  padding-top: 20% ;
   text-align: center;
   font-size: 3rem;
   color: rgba(253,187,45,1)
@@ -131,12 +142,32 @@ a:hover {
   background: linear-gradient(0deg, rgba(60,76,76,1) 0%, rgba(2,98,136,1) 100%);
 }
 
-.contact-pg h1 {
-  padding-top: 3%;
+.contact-pg {
+  color: whitesmoke;
   text-align: center;
-  font-size: 3rem;
-  color: rgba(253,187,45,1)
 }
 
+.contact-pg h1 {
+  padding-top: 20%;
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(253,187,45,1);
+}
 
+.contact-pg a {
+  text-decoration: none;
+  color: rgba(253,187,45,1);
+}
 
+.contact-pg a:hover {
+  color: rgb(163, 0, 54);
+}
+
+.contact-pg h2 {
+  padding-top: 10%;
+  font-size: 1.75rem;
+}
+
+.contact-pg p {
+  font-size: 1.5rem;
+}

@@ -1,21 +1,23 @@
 import React from 'react'; 
 import './App.css';
 import Hero from './components/Hero.jsx'; 
-import OffcanvasNavigation from './components/Navbar.jsx';
+import BasicNavbar from './components/Navbar.jsx';
 import AboutMe from './components/AboutMe';
 import ProjectsGroup from './components/ProjectsGroup';
 import Contact from './components/Contact';
+import Footer from './components/Footer'; 
 
 
 
 function App() {
   return (
-    <div className="App">
-      <OffcanvasNavigation />
+    <div id='app' className="App">
+      <BasicNavbar />
       <Hero />
       <AboutMe />
       <ProjectsGroup /> 
       <Contact />
+      <Footer />
     </div>
   );
 }
