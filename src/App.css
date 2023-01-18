@@ -3,26 +3,58 @@
   font-family: 'Source Code Pro', monospace;
   height: 100%;
   background: rgb(34,193,195);
+  position: relative;
 }
 
 h1 {
   color:white;
 }
 
-/* Navbar Component */
+/* Navbar Component ////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.navbar {
+  transition: 0.5s ease;
+}
+.navbar-scroll {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.5);
+}
 
 .navbar-brand {
   color: rgb(163, 0, 54);
   padding-left: 3%;
+  text-align: left;
+}
+
+.navbar-brand:focus{
+  color: rgb(163, 0, 54);
 }
 
 .navbar-toggler {
   color: rgb(163, 0, 54);
 }
 
-.nav-item {
+/* .nav-item {
   color:whitesmoke;
+} */
+
+.nav-item:hover {
+  color:rgb(163, 0, 54); 
 }
+
+
+/* .navbar > .active > a { 
+  background-color: red; 
+} */
+
+/* .nav-item: { 
+  color: red; 
+} */
+
+/* .nav-item-scroll {
+  color: black; 
+} */
+
 
 .ms-auto {
   padding-right: 2%;
@@ -30,7 +62,7 @@ h1 {
 
 
 
-/* Homepage / Hero component */
+/* Homepage / Hero component ////////////////////////////////////////////////////////////////////////////////////*/
 
 .hero {
   padding-top: 20%;
@@ -58,7 +90,7 @@ h1 {
 
 
 
-/* about Me Component */
+/* about Me Component ////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .aboutMe {
   padding-top: 20%;
@@ -81,7 +113,7 @@ h1 {
 }
 
 
-/* Projects Component  */
+/* Projects Component  //////////////////////////////////////////////////////////////////////////////////////////*/
 
 .projects-pg {
   background-color: #4e7c7d;
@@ -98,8 +130,8 @@ h1 {
 }
 
 .projects-container {
-  margin-top: 2%;
-  height: 100vh;
+  margin-top: 10%;
+  height: 100vh;  /* Fix this once content expands past 100vh to prevent overflow  */
   text-align: center;
 }
 
@@ -132,7 +164,7 @@ a:hover {
 }
 
 
-/* Contact Component */
+/* Contact Component //////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .contact-pg {
   height: 100vh;
@@ -169,5 +201,34 @@ a:hover {
 }
 
 .contact-pg p {
+  padding-top: 10%;
   font-size: 1.5rem;
 }
+
+/* footer component ///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+  transition: 0.5s ease;
+}
+
+.footer-color {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.footer a {
+  color: rgb(163, 0, 54);
+  font-size: 1.5rem;
+  padding: 1% 5%;
+}
+
+.footer a:hover {
+  color: white; 
+}
+

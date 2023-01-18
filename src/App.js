@@ -11,13 +11,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div id='app' className="App">
+    <div id='app' className="App" data-spy='scroll' data-target='navbar' data-offset='50'>
       <BasicNavbar />
+      <Footer />
       <Hero />
       <AboutMe />
       <ProjectsGroup /> 
       <Contact />
-      <Footer />
     </div>
   );
 }
