@@ -15,6 +15,7 @@ h1 {
 .navbar {
   transition: 0.5s ease;
 }
+
 .navbar-scroll {
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.5);
@@ -26,19 +27,29 @@ h1 {
   text-align: left;
 }
 
-.navbar-brand:focus{
-  color: rgb(163, 0, 54);
+.navbar-brand:hover{
+  color: black;
 }
 
-.navbar-toggler {
+/* .navbar-toggler {
   color: rgb(163, 0, 54);
-}
-
-/* .nav-item {
-  color:whitesmoke;
 } */
 
-.nav-item:hover {
+.nav-link {
+  color:whitesmoke;
+  padding: 0;
+  margin: 8px 16px; 
+}
+
+/* .nav-link:active {
+  color:black;
+} */
+
+.nav-link-scroll {
+  color:black; 
+}
+
+.nav-link:hover {
   color:rgb(163, 0, 54); 
 }
 
@@ -56,9 +67,9 @@ h1 {
 } */
 
 
-.ms-auto {
+/* .ms-auto {
   padding-right: 2%;
-}
+} */
 
 
 
@@ -93,8 +104,8 @@ h1 {
 /* about Me Component ////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .aboutMe {
-  padding-top: 20%;
-  height: 100vh;
+  padding: 20% 0;
+  /* height: 100vh; */
   background-color: rgb(34,193,195);
   color: white;
 }
@@ -222,13 +233,17 @@ a:hover {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.footer a {
+.footer-link {
   color: rgb(163, 0, 54);
   font-size: 1.5rem;
-  padding: 1% 5%;
+  margin: 1% 5%;
 }
 
 .footer a:hover {
   color: white; 
+}
+
+.footer-color a:hover {
+  color: black;
 }
 

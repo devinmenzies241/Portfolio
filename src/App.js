@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './App.css';
 import Hero from './components/Hero.jsx'; 
-import BasicNavbar from './components/Navbar.jsx';
+import Navbar2 from './components/Navbar2';
 import AboutMe from './components/AboutMe';
 import ProjectsGroup from './components/ProjectsGroup';
 import Contact from './components/Contact';
@@ -11,8 +11,8 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div id='app' className="App" data-spy='scroll' data-target='navbar' data-offset='50'>
-      <BasicNavbar />
+    <div id='app' className="App">
+      <Navbar2 />
       <Footer />
       <Hero />
       <AboutMe />

@@ -20,7 +20,7 @@ function BasicNavbar() {
   return (
     <Navbar sticky='top' className={color ? 'navbar navbar-scroll' : 'navbar'}>
       <Navbar.Brand href="/" className='navbar-brand'>DM</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
           {/* <Nav.Link className={color ? 'nav-item-scroll' : 'nav-item'} href='#app'><i class="fa-solid fa-house"></i></Nav.Link> */}
