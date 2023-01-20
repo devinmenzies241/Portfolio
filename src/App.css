@@ -38,7 +38,7 @@ h1 {
 .nav-link {
   color:whitesmoke;
   padding: 0;
-  margin: 8px 16px; 
+  margin: 8px 10px; 
 }
 
 /* .nav-link:active {
@@ -111,8 +111,9 @@ h1 {
 }
 
 .aboutMe-con {
-  padding-top: 3%;
+  padding-top: 5%;
 }
+
 .aboutMe h1 {
   text-align: center;
   font-size: 3rem;
@@ -120,7 +121,7 @@ h1 {
 }
 
 .aboutMe p {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 
