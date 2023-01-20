@@ -15,9 +15,9 @@ const createProjectCard = projects =>
 const ProjectsGroup = () => {
   return (
     <div id='projects-pg' className='projects-pg'>
-      <h1>projects</h1>
+      <h1>Projects</h1>
       <div className='container projects-container'>
-        <div className='row gy-4'>
+        <div className='row gy-5'>
           {projects.map(createProjectCard)}
         </div>
       </div>

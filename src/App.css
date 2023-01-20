@@ -111,7 +111,7 @@ h1 {
 }
 
 .aboutMe-con {
-  padding-top: 5%;
+  margin-top: 5%;
 }
 
 .aboutMe h1 {
@@ -129,36 +129,44 @@ h1 {
 
 .projects-pg {
   background-color: #4e7c7d;
+  /* background-color:#edeae4; */
   /* background: rgb(2,98,136);
   background: linear-gradient(0deg, rgba(2,98,136,1) 0%, rgba(60,156,140,1) 50%, rgba(78,124,125,1) 100%); */
-  margin: 0;
+  padding: 20% 0;
 }
 
 .projects-pg h1 {
-  padding-top: 20% ;
   text-align: center;
   font-size: 3rem;
-  color: rgba(253,187,45,1)
+  color: rgba(253,187,45,1);
 }
 
 .projects-container {
-  margin-top: 10%;
-  height: 100vh;  /* Fix this once content expands past 100vh to prevent overflow  */
+  padding-top: 5%;
+  /* height: 100vh;   */
+  /* Fix this once content expands past 100vh to prevent overflow  */
   text-align: center;
 }
 
 
 .project-card {
   color: black; 
-  background-color: #82acae;
+  /* background-color: #82acae; */
+  background-color: #eff1f1;
   border-radius: 5px;
-  box-shadow: 0 4px 10px #548283;
+  /* box-shadow: 0 4px 10px #548283; */
+  box-shadow: 0 2px 5px #ccc;
   padding: 10px;
   border-color: black;
 }
 
+.project-card h2 {
+  margin: 5% 0; 
+}
+
 .projects-container p {
   text-align: left;
+  margin: 5% 0; 
 }
 
 .projects-container a {

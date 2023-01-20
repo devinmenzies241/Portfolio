@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = (props) => {
   return (
-    <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12 project-card'>
+    <div className='col-sm-12 col-md-12 col-lg-6 col-xl-6 project-card'>
       <a href={props.href} target='blank'>
         <h2>{props.name}</h2>  
       </a> 
