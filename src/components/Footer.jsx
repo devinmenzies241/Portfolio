@@ -6,7 +6,7 @@ const Footer = () => {
   const [color, setColor] = useState(false);
 
   const changeColor = () => {
-    if(window.scrollY > 50) {
+    if(window.scrollY > 10) {  // make sure this is the same as in Navbar2 
       setColor(true); 
     } else {
       setColor(false);

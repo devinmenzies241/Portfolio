@@ -5,7 +5,7 @@ const projects = [
   {
     id: 1,
     name: 'Womp Rat - Artist Website',
-    description:'This is a website I build to host my own music, and create a call to action to join my mailing list. Built using Node.js Express.js, HTML, CSS (with Bootstrap) and Javascript. The email subsribe list is facilitated by the MailChimp API. I also have the BandsinTown API integrated into my "Shows" page to display upcoming performances',
+    description:'This is a website I build to host my own music, and create a call to action to join my mailing list. Built using Node.js Express.js, HTML, CSS (with Bootstrap) and Javascript. The email subsribe list is facilitated by the MailChimp API. I also have the BandsinTown API integrated into my "Shows" page to display upcoming performances.',
     imgSrc: wompratwebsite,
     href: 'https://wompratbass.onrender.com/',
   },
