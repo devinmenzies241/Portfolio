@@ -10,9 +10,6 @@ const AboutMe = () => {
               <p>
                 I am Denver based web developer specializing in front-end technologies. I am currently looking
                 for a junior level position that would provide guidance and profesional experience.
-                <br/>
-                <br/>
-                In my free time I like to write music, ride my bike, play video games, and design costumes. 
               </p>
             </div>
           <div className='col-sm-6 col-md-6 col-lg-6 col-xl-6'>
@@ -43,8 +40,7 @@ const AboutMe = () => {
             <ul>
               <li>Grow my skills as a developer</li>
               <li>Learn more about web security</li>
-              <li>Volunteer my time to non-profits that benefit my local communities</li>
-              <li>Continue to learn audio for game development</li>
+              <li>Volunteer my time to non-profits that benefit my local community</li>
             </ul>
           </div>
         </div>

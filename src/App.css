@@ -31,19 +31,11 @@ h1 {
   color: black;
 }
 
-/* .navbar-toggler {
-  color: rgb(163, 0, 54);
-} */
-
 .nav-link {
   color:whitesmoke;
   padding: 0;
   margin: 8px 10px; 
 }
-
-/* .nav-link:active {
-  color:black;
-} */
 
 .nav-link-scroll {
   color:black; 
@@ -53,23 +45,6 @@ h1 {
   color:rgb(163, 0, 54); 
 }
 
-
-/* .navbar > .active > a { 
-  background-color: red; 
-} */
-
-/* .nav-item: { 
-  color: red; 
-} */
-
-/* .nav-item-scroll {
-  color: black; 
-} */
-
-
-/* .ms-auto {
-  padding-right: 2%;
-} */
 
 
 
@@ -182,6 +157,10 @@ a:hover {
 .projects-container img {
   width: 75%;
   height: auto;
+}
+
+.projects-container img:hover {
+  opacity: 60%;
 }
 
 
