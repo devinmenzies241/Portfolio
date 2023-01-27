@@ -46,6 +46,52 @@ h1 {
   color:rgb(163, 0, 54); 
 }
 
+@media all and (min-width: 48em) {
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+
+@media all and (min-width: 48em) {
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 1.15rem;
+  }
+}
+
+@media all and (min-width: 62em) {
+
+  .navbar-brand {
+    font-size: 1.75rem;
+  }
+
+  .nav-link {
+    font-size: 1.25rem;
+  }
+
+}
+
+@media all and (min-width: 75em) {
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+}
+
 @media all and (min-width: 87em) {
 
   .navbar-brand {
@@ -79,23 +125,107 @@ h1 {
 }
 
 .hero h2 {
+  margin-top: 2%; 
   color:rgb(2, 98, 136);
   font-size: 1.75rem;
 }
 
-@media all and (min-width: 87em) {
+@media all and (min-width: 30em) {
+
+  .hero {
+    padding-top: 15%;
+  }
+
+  .hero h1 {
+      font-size: 4.25rem;
+  }
+
+  .pfp {
+    scale: 60%;
+    margin: -10%;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+}
+
+@media all and (min-width: 48em) {
+
+  .hero {
+    padding-top: 12%;
+  }
+
+  .hero h1 {
+      font-size: 5rem;
+  }
+
+  .pfp {
+    scale: 70%;
+    margin: -5%;
+  }
+
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+
+}
+
+@media all and (min-width: 62em) {
+
+  .hero {
+    padding-top: 5%;
+  }
+
+  .hero h1 {
+      font-size: 6.5rem;
+  }
+
+  .pfp {
+    scale: 70%;
+    margin: -3%;
+  }
+
+  .hero h2 {
+    font-size: 3.5rem;
+  }
+
+}
+
+@media all and (min-width: 75em) {
 
   .hero {
     padding-top: 4%;
   }
 
   .hero h1 {
-      font-size: 8rem;
+      font-size: 7rem;
   }
 
   .pfp {
     scale: 80%;
-    margin: 0;
+    margin: -2%;
+  }
+
+  .hero h2 {
+    font-size: 3.75rem;
+  }
+
+}
+
+@media all and (min-width: 87em) {
+
+  .hero {
+    padding-top: 3%;
+  }
+
+  .hero h1 {
+      font-size: 7.5rem;
+  }
+
+  .pfp {
+    scale: 90%;
+    margin: -1%;
   }
 
   .hero h2 {
@@ -127,6 +257,35 @@ h1 {
 
 .aboutMe p {
   font-size: 1rem;
+}
+
+@media all and (min-width: 48em) {
+
+
+}
+
+@media all and (min-width: 48em) {
+
+
+
+}
+
+@media all and (min-width: 62em) {
+
+
+
+}
+
+@media all and (min-width: 75em) {
+
+
+
+}
+
+@media all and (min-width: 87em) {
+
+
+
 }
 
 
@@ -261,12 +420,30 @@ a:hover {
   color: black;
 }
 
+@media all and (min-width: 48em) {
+
+  .footer-link {
+    font-size: 1.75rem;
+  }
+}
+
+@media all and (min-width: 62em) {
+
+  .footer-link {
+    font-size: 2rem;
+  }
+}
+
+@media all and (min-width: 75em) {
+
+  .footer-link {
+    font-size: 2rem;
+  }
+}
 
 @media all and (min-width: 87em) {
 
   .footer-link {
     font-size: 2rem;
-    margin: 0% 5%;
   }
-
 }
