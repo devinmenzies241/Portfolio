@@ -115,7 +115,7 @@ h1 {
 }
 
 .pfp {
-  border-radius: 50%;
+  border-radius: 5%;
   scale: 55%;
   margin: -15%;
 }
@@ -216,7 +216,7 @@ h1 {
 @media all and (min-width: 87em) {
 
   .hero {
-    padding-top: 3%;
+    padding-top: 8%;
   }
 
   .hero h1 {
@@ -255,9 +255,26 @@ h1 {
   color: rgb(254, 197, 74);
 }
 
+.aboutMe h3 {
+  color: rgb(254, 197, 74);
+  text-align: center;
+}
+
+.aboutMe ul {
+  padding: 0; 
+}
+
 .aboutMe p {
   font-size: 1rem;
+  margin: 0;
 }
+
+
+/* .stack-list {
+  width: 35%;
+} */
+
+
 
 @media all and (min-width: 48em) {
 
@@ -284,7 +301,33 @@ h1 {
 
 @media all and (min-width: 87em) {
 
+  .aboutMe {
+    padding: 6% 0;
+  }
+  
+  .aboutMe-con {
+    margin-top: 1%;
+  }
+  
+  .aboutMe h1 {
+    font-size: 4.5rem;
+  }
 
+  .aboutMe h3 {
+    font-size: 2.5rem;
+  }
+  
+  .aboutMe p {
+    font-size: 1.5rem;
+  }
+
+  .aboutMe li {
+    font-size: 1.5rem;
+  }
+
+  .stack-list {
+    width: 35%;
+  }
 
 }
 

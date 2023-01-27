@@ -13,7 +13,6 @@ function App() {
   return (
     <div id='app' className="App">
       <Navbar2 />
-      
       <Hero />
       <AboutMe />
       <ProjectsGroup /> 

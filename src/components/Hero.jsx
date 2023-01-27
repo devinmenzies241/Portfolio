@@ -1,6 +1,6 @@
 import React from 'react'; 
-import Avatar from './avatar';
-import pfp from '../images/pfp.jpg';
+// import Avatar from './avatar';
+// import pfp from '../images/pfp.jpg';
 
 
 const Hero = () => {
@@ -8,8 +8,8 @@ const Hero = () => {
     <div id='hero' className='container-fluid hero'>
       <h2>Hi! I'm</h2>
       <h1>Devin Menzies</h1>
-      <Avatar img={pfp}/> 
-      <h2>Web developer</h2>
+      <h2>a Web Developer</h2>
+          {/* <Avatar img={pfp}/>  */}
     </div>
   )
 }
