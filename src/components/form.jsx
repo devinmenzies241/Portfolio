@@ -3,10 +3,6 @@ import { useState } from 'react';
 
 const Form = () => {
 
-  const test = () => {
-    console.log('hello');  
-  }
-
   const [mailerState, setMailerState] = useState({
     name: '',
     email:'',
@@ -23,7 +19,7 @@ const Form = () => {
   const submitEmail = async (e) => {
     e.preventDefault();
     console.log({ mailerState });
-    const response = await fetch("http://localhost:3001/send", {
+    const response = await fetch("https://nodemailerapi-urdb.onrender.com/send", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
