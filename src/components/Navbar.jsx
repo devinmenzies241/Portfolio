@@ -24,6 +24,7 @@ function BasicNavbar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
           {/* <Nav.Link className={color ? 'nav-item-scroll' : 'nav-item'} href='#app'><i class="fa-solid fa-house"></i></Nav.Link> */}
+          <Nav.Link className={color ? 'nav-item-scroll' : 'nav-item'} href='#aboutMe-pg'><i class="fa-solid fa-house"></i></Nav.Link>
           <Nav.Link className={color ? 'nav-item-scroll' : 'nav-item'} href='#aboutMe-pg'>About Me</Nav.Link>
           <Nav.Link className={color ? 'nav-item-scroll' : 'nav-item'} href="#projects-pg">Projects</Nav.Link>
           <Nav.Link className={color ? 'nav-item-scroll' : 'nav-item'} href="#contact-pg">Contact</Nav.Link>

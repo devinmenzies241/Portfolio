@@ -6,9 +6,9 @@ import React from 'react';
 const Hero = () => {
   return (
     <div id='hero' className='container-fluid hero'>
-      <h2>Hi! I'm</h2>
+      <h2>Hi<span className='shaker'>!</span> I'm</h2>
       <h1>Devin Menzies</h1>
-      <h2>a Web Developer</h2>
+      <h2>Web Developer</h2>
           {/* <Avatar img={pfp}/>  */}
     </div>
   )

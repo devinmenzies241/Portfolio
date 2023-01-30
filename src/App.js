@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 import './App.css';
 import Hero from './components/Hero.jsx'; 
 import Navbar2 from './components/Navbar2';

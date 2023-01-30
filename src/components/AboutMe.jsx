@@ -1,4 +1,6 @@
-import React from 'react'; 
+import React from 'react';
+import Avatar from './avatar';
+import pfp from '../images/pfp.jpg';
 
 const AboutMe = () => {
   return (
@@ -6,10 +8,17 @@ const AboutMe = () => {
       <h1>About Me</h1>
       <div className='container aboutMe-con'>
         <div className='row gy-4 gx-4'>
-          <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
+          <div className='col-6 justify-content-center align-items-center'>
             <p>
-              I am a web developer with  excellent leadership, organizational, interpersonal, problem-solving, and time management skills and the ability to manage multiple projects. Highly motivated self-starter with an exceptional understanding of XXXXXXXXXXXXX. Possesses the ability to easily establish and maintain effective relationships with colleagues, customers and community partners.
+              I am a web developer with  excellent leadership, organizational, interpersonal, 
+              problem-solving, and time management skills and the ability to manage multiple projects. 
+              Highly motivated self-starter with an exceptional understanding of XXXXXXXXXXXXX. 
+              Possesses the ability to easily establish and maintain effective relationships with 
+              colleagues, customers and community partners.
             </p>
+          </div>
+          <div className='col-6 avatar-div'>
+            {/* <Avatar img={pfp}/> */}
           </div>
           {/* <div className='col-6'>
             <h3> Stack</h3>
