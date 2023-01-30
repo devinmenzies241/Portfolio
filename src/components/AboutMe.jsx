@@ -8,18 +8,18 @@ const AboutMe = () => {
       <h1>About Me</h1>
       <div className='container aboutMe-con'>
         <div className='row gy-4 gx-4'>
-          <div className='col-6 justify-content-center align-items-center'>
+          <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 avatar-div'>
+            <Avatar img={pfp}/>
+          </div>
+          <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 justify-content-center align-items-center'>
             <p>
-              I am a web developer with  excellent leadership, organizational, interpersonal, 
-              problem-solving, and time management skills and the ability to manage multiple projects. 
-              Highly motivated self-starter with an exceptional understanding of XXXXXXXXXXXXX. 
-              Possesses the ability to easily establish and maintain effective relationships with 
-              colleagues, customers and community partners.
+              I am a junior web developer seeking opportunities for entry level work. I am primarily focused on 
+              front end technologies, however I am interested in growing into a full stack developer as I continue
+              to take on new projects, work, and professional experience. Check out my websites below to see what I 
+              have been creating.   
             </p>
           </div>
-          <div className='col-6 avatar-div'>
-            {/* <Avatar img={pfp}/> */}
-          </div>
+
           {/* <div className='col-6'>
             <h3> Stack</h3>
               <div className='container'>
