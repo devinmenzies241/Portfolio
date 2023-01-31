@@ -34,7 +34,7 @@ h1 {
 
 .navbar-brand {
   color: rgb(163, 0, 54);
-  padding: 0 0 0 3%;
+  padding: 0 0 0 2%;
   text-align: left;
 }
 
@@ -54,6 +54,15 @@ h1 {
 
 .nav-link:hover {
   color:rgb(163, 0, 54); 
+}
+
+@media all and (max-width: 23.4em){
+  .nav-link {
+    font-size: 0.8rem;
+  }
+  .navbar-brand {
+    font-size: 0.8rem;
+  }
 }
 
 @media all and (min-width: 30em) { 
@@ -117,8 +126,8 @@ h1 {
 .hero h1 { 
   font-size: 4rem;
   text-shadow: 
-    0 5px 1px rgb(186, 186, 186),
-    0 7px 5px rgb(166, 166, 166);
+    0 3px 1px rgb(186, 186, 186),
+    0 4px 5px rgb(166, 166, 166);
 }
 
 .hero h2 {
@@ -135,7 +144,7 @@ h1 {
     padding-top: 50%;
   }
   .hero h1 {
-    font-size: 4.25rem;
+    font-size: 4rem;
   }
   .hero h2 {
     font-size: 2rem;
@@ -252,7 +261,7 @@ h1 {
   scale: 100%;
   box-shadow: 
   0rem 0.2rem 5px rgb(160, 160, 160),
-  0rem 0.25rem 15px rgb(80, 80, 80);
+  0rem 0.1rem 8px rgb(80, 80, 80);
 }
 
 .aboutMe p {
@@ -354,7 +363,7 @@ h1 {
 
 @media all and (min-width: 62em) {
   .aboutMe {
-    padding: 8% 0;
+    padding: 6% 0;
   }
   .aboutMe h1 {
     font-size: 3.75rem;
@@ -421,23 +430,15 @@ h1 {
 .projects-pg h1 {
   text-align: center;
   font-size: 2.5rem;
-  /* color: rgb(124, 121, 255); */
-  /* color: rgb(8, 240, 244); 
+  color: rgb(2, 98, 136); 
   text-shadow: 
-    0px 3px 0.75px rgb(5, 209, 213),
-    0px 3px 0.75px rgb(2, 137, 140); */
-  color: #D45AE8; 
-  text-shadow: 
-    0px 1px 0.25px #ac37bd,
-    0px 3px 0.25px #891E9C,
-    0px 3.5px 0.75px #3b0a44;
+    0 1px 1px rgb(1, 82, 114),
+    0 3.5px 0.75px rgb(1, 65, 91),
+    0 4.4px 1px rgb(0, 38, 53);
 }
 
 .projects-container {
-  /* width: 100%; */
   padding-top: 3%;
-  /* height: 100vh;   */
-  /* Fix this once content expands past 100vh to prevent overflow  */
   text-align: center;
   
 }
@@ -445,14 +446,11 @@ h1 {
 .project-card {
   transform: scale(0.9);
   color: black; 
-  /* background-color: #82acae; */
   background-color: #eff1f1;
   border-radius: 5px;
-  /* box-shadow: 0 4px 10px #548283; */
-  /* box-shadow: 0 4px 5px rgb(160, 160, 160); */
   box-shadow: 
     0rem 0.2rem 5px rgb(160, 160, 160),
-    0rem 0.25rem 15px rgb(80, 80, 80);
+    0rem 0.2rem 5px rgb(80, 80, 80);
   padding: 10px;
   border-color: black;
   transition: 0.5s ease;
@@ -494,60 +492,97 @@ a:hover {
 }
 
 @media all and (max-width: 23.4em) {
-
+  .projects-pg h1 {
+    font-size: 3rem;
+  }
 }
 
 @media all and (min-width: 23.4em) {
-
+  .projects-pg h1 {
+    font-size: 3rem;
+  }
+  .projects-pg {
+    padding: 15% 0;
+   }
 }
 
 @media all and (min-width: 26.5em){
-
+  .projects-pg h1 {
+    font-size: 3.5rem;
+  }
+  .projects-pg {
+    padding: 12% 0;
+   }
 }
 
 @media all and (min-width: 30em) {
-
+  .projects-pg h1 {
+    font-size: 3.75rem;
+  }
+  .projects-pg {
+    padding: 10% 0;
+   }
 }
 
 @media all and (min-width: 48em) {
-
-
+  .projects-pg h1 {
+    font-size: 4rem;
+  }
+  .projects-pg {
+    padding: 9% 0;
+   }
+   .project-card {
+    width: 50%;
+  }
+  .projects-container {
+    padding-top: 0%;
+  }
 }
 
-@media all and (min-width: 48em) {
-
-
-
-}
 
 @media all and (min-width: 62em) {
-
-
-
+  .projects-pg h1 {
+    font-size: 4rem;
+  }
+  .projects-pg {
+    padding: 6% 0;
+   }
+   .project-card {
+    width: 50%;
+  }
+  .projects-container {
+    padding-top: 0%;
+  }
 }
 
 @media all and (min-width: 75em) {
-
-
-
+  .projects-pg h1 {
+    font-size: 4rem;
+  }
+  .projects-pg {
+    padding: 5% 0;
+   }
+   .project-card {
+    width: 50%;
+  }
+  .projects-container {
+    padding-top: 0%;
+  }
 }
 
 @media all and (min-width: 87em) {
   .projects-container {
     padding-top: 0%;
-    margin-top: -3%;
+    margin-top: -1%;
   }
-
   .project-card {
-    transform: scale(0.7);
+    transform: scale(0.75);
   }
-
   .project-card:hover {
     transform: scale(0.9);
   }
-
   .projects-pg h1 {
-    font-size: 4.5rem;
+    font-size: 4.75rem;
   }
   .projects-pg {
    padding: 4% 0;
@@ -573,7 +608,7 @@ a:hover {
   border-radius: 5px;
   box-shadow: 
     0rem 0.2rem 5px rgb(160, 160, 160),
-    0rem 0.25rem 15px rgb(80, 80, 80);
+    0rem 0.1rem 5px rgb(80, 80, 80);
   padding: 4%; 
 }
 
@@ -738,47 +773,177 @@ textarea {
   }
 
 @media all and (max-width: 23.4em) {
+  .contact-form-container {
+    margin-top: 15%;
+    padding: 5%; 
+    width: 90%;
+  }
+  
+  .contact-pg h1 {
+    padding-top: 15%;
+    text-align: center;
+    font-size: 4.5rem;
+  }
+  
+  .contact-pg h2 {
+    font-size: 2.5rem;
+  }
 
+  .contact-pg legend {
+    font-size: 1.75rem;
+  }
+  
+  .contact-pg p {
+    padding-top: 5%;
+    font-size: 1.5rem;
+  }
 }
 
-@media all and (min-width: 23.4em) {
+
+@media all and (max-width: 23.4em){
+  .contact-form-container {
+    margin-top: 2%;
+  }
+  
+  .contact-pg h1 {
+    padding-top: 15%;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .contact-pg h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-pg legend {
+    font-size: 1rem;
+  }
+  .form-input {
+    margin: 0.25em 0;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #d6d6d6;
+    transition: 0.2s;
+    outline: none;
+  }
+}
+
+@media all and (min-width: 23.4em){
+  .contact-form-container {
+    margin-top: 10%;
+    padding: 5%; 
+    width: 90%;
+  }
+  
+  .contact-pg h1 {
+    padding-top: 15%;
+    text-align: center;
+    font-size: 3.25rem;
+  }
+  
+  .contact-pg h2 {
+    font-size: 2rem;
+  }
+
+  .contact-pg legend {
+    font-size: 1.25rem;
+  }
 
 }
 
 @media all and (min-width: 26.5em){
+  .contact-form-container {
+    margin-top: 5%;
+    width: 90%; 
+  }
+  
+  .contact-pg h1 {
+    padding-top: 15%;
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  
+  .contact-pg h2 {
+    font-size: 2.5rem;
+  }
 
+  .contact-pg legend {
+    font-size: 1.25rem;
+  }
 }
 
 @media all and (min-width: 30em) {
+  .contact-form-container {
+    margin-top: 5%;
+    width: 90%; 
+  }
+  
+  .contact-pg h1 {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+  .contact-pg h2 {
+    font-size: 2.5rem;
+  }
 
+  .contact-pg legend {
+    font-size: 1.25rem;
+  }
 }
 
 @media all and (min-width: 48em) {
-
-
-
+  .contact-form-container {
+    margin-top: 2%;
+    width: 60%; 
+  }
+  .contact-pg h1 {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .contact-pg h2 {
+    font-size: 2.5rem;
+  }
+  .contact-pg legend {
+    font-size: 1.25rem;
+  }
 }
 
 @media all and (min-width: 62em) {
 
-
+  .contact-form-container {
+    margin-top: 3%;
+    width: 60%; 
+  }
+  .contact-pg h1 {
+    padding-top: 6%;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .contact-pg h2 {
+    font-size: 2.5rem;
+  }
+  .contact-pg legend {
+    font-size: 1.25rem;
+  }
 
 }
 
 @media all and (min-width: 75em) {
-
-
 
 }
 
 @media all and (min-width: 87em) {
 
   .contact-form-container {
-    margin-top: 2%;
+    margin-top: 1%;
+    width: 40%;
   }
   
   .contact-pg h1 {
-    padding-top: 5%;
+    padding-top: 4%;
     text-align: center;
     font-size: 4.5rem;
   }
