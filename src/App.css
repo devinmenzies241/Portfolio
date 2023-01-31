@@ -234,9 +234,9 @@ h1 {
   background-color: #22c1c3;
 }
 
-/* .aboutMe-con {
-  margin-top: 5%;
-} */
+.aboutMe-row {
+  max-width: 100vw;
+}
 
 .aboutMe h1 {
   text-align: center;
@@ -246,19 +246,26 @@ h1 {
     0 5px 2px rgb(152, 108, 21);
 }
 
-
-
 .pfp {
   border-radius: 25%;
   scale: 65%;
-  margin-bottom: 10%;
+  scale: 100%;
+  box-shadow: 
+  0rem 0.2rem 5px rgb(160, 160, 160),
+  0rem 0.25rem 15px rgb(80, 80, 80);
 }
 
+.aboutMe p {
+  padding: 5%;
+}
 
-
+/* About Me Media Queries */
 @media all and (max-width: 23.4em) {
   .aboutMe {
-    padding: 20% 0; 
+    padding: 17% 0 5%; 
+  }
+  .aboutMe-row {
+    margin: 0;
   }
   .aboutMe h1 {
     font-size: 3rem;
@@ -266,11 +273,11 @@ h1 {
   .aboutMe-row {
     padding-top: 1%;
   }
-  .pfp {
-    scale: 70%; 
-  }
   .avatar-div {
-    margin: 0 0 -5%; 
+    margin: -10% 0 0; 
+    padding: 0;
+    max-width: 100vw;
+    scale: 65%; 
   }
   .aboutMe p {
     font-size: 1.1rem;
@@ -279,16 +286,17 @@ h1 {
 
 @media all and (min-width: 23.4em) {
   .aboutMe {
-    padding: 18% 0;
+    padding: 17% 0 5%;
+  }
+  .aboutMe-row {
+    margin: 0;
   }
   .aboutMe h1 {
     font-size: 3rem;
   }
-  .pfp {
-    /* scale: 80%;  */
-  }
   .avatar-div {
-    margin: 0 0 -5%; 
+    margin: -10% 0 0; 
+    scale: 65%; 
   }
   .aboutMe p {
     font-size: 1.1rem;
@@ -297,16 +305,14 @@ h1 {
 
 @media all and (min-width: 26.5em){
   .aboutMe {
-    padding: 15% 0;
+    padding: 15% 0 0;
   }
   .aboutMe h1 {
     font-size: 3.25rem;
   }
-  .pfp {
-    /* scale: 85%;  */
-  }
   .avatar-div {
-    margin: 0 0 -5%; 
+    margin-top: -15%; 
+    scale: 60%; 
   }
   .aboutMe p {
     font-size: 1.2rem;
@@ -315,67 +321,86 @@ h1 {
 
 @media all and (min-width: 30em) {
   .aboutMe {
-    padding: 12% 0;
+    padding: 10% 0 0;
   }
   .aboutMe h1 {
     font-size: 3.5rem;
   }
-  .pfp {
-    /* scale: 90%;  */
-  }
   .avatar-div {
-    margin: 0 0 -5%; 
+    margin-top: -15%; 
+    scale: 60%; 
   }
   .aboutMe p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    padding: 0 5%;  
   }
 }
 
 @media all and (min-width: 48em) {
   .aboutMe {
-    padding: 10% 0;
+    padding: 8% 0;
   }
   .aboutMe h1 {
     font-size: 3.75rem;
   }
-  .pfp {
-    /* scale: 90%;  */
+  .avatar-div {
+    margin-top: 0%; 
+    scale: 85%; 
   }
   .aboutMe p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
 @media all and (min-width: 62em) {
-
-
-
+  .aboutMe {
+    padding: 8% 0;
+  }
+  .aboutMe h1 {
+    font-size: 3.75rem;
+  }
+  .avatar-div {
+    margin-top: 0%; 
+    scale: 75%; 
+  }
+  .aboutMe p {
+    font-size: 1.4rem;
+  }
 }
 
 @media all and (min-width: 75em) {
-
-
-
+  .aboutMe {
+    padding: 6% 0 0;
+  }
+  .aboutMe h1 {
+    font-size: 3.75rem;
+    margin-bottom: -4%; 
+  }
+  .avatar-div {
+    margin-top: 0%; 
+    scale: 65%; 
+  }
+  .aboutMe p {
+    font-size: 1.4rem;
+  }
 }
 
 @media all and (min-width: 87em) {
 
   .aboutMe {
-    padding: 3% 0;
+    padding: 4% 0;
   }
-  
-  /* .aboutMe-con {
-    margin-top: 1%;
-  } */
-  
   .aboutMe h1 {
-    font-size: 4.5rem;
+    font-size: 4.75rem;
+    margin-bottom: -5%; 
   }
-
+  .avatar-div {
+    margin-top: 0%; 
+    scale: 60%; 
+  }
   .aboutMe p {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
-
 }
 
 
