@@ -56,34 +56,28 @@ h1 {
   color:rgb(163, 0, 54); 
 }
 
-@media all and (min-width: 48em) {
-
+@media all and (min-width: 30em) { 
   .navbar-brand {
     font-size: 1rem;
   }
-
   .nav-link {
     font-size: 1rem;
   }
 }
 
 @media all and (min-width: 48em) {
-
   .navbar-brand {
     font-size: 1.5rem;
   }
-
   .nav-link {
     font-size: 1.15rem;
   }
 }
 
 @media all and (min-width: 62em) {
-
   .navbar-brand {
     font-size: 1.75rem;
   }
-
   .nav-link {
     font-size: 1.25rem;
   }
@@ -91,11 +85,9 @@ h1 {
 }
 
 @media all and (min-width: 75em) {
-
   .navbar-brand {
     font-size: 1.5rem;
   }
-
   .nav-link {
     font-size: 1rem;
     margin: 2px 20px; 
@@ -104,36 +96,26 @@ h1 {
 }
 
 @media all and (min-width: 87em) {
-
   .navbar-brand {
     font-size: 1.75rem;
   }
-
   .nav-link {
     font-size: 1.25rem;
     margin: 2px 20px; 
   }
-
 }
 
 /* Homepage / Hero component ////////////////////////////////////////////////////////////////////////////////////*/
 
 .hero {
-  padding-top: 20%;
   height: 100vh;
   text-align: center;
   background: rgb(34,193,195);
   background: linear-gradient(0deg,rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
 }
 
-/* .pfp {
-  border-radius: 5%;
-  scale: 55%;
-  margin: -15%;
-} */
-
 .hero h1 { 
-  font-size: 3.75rem;
+  font-size: 4rem;
   text-shadow: 
     0 5px 1px rgb(186, 186, 186),
     0 7px 5px rgb(166, 166, 166);
@@ -142,129 +124,103 @@ h1 {
 .hero h2 {
   margin-top: 2%; 
   color:rgb(2, 98, 136);
-  /* text-shadow: 0px 1.5px 0.5px rgb(7, 71, 96); */
-  font-size: 1.75rem;
-}
-
-.shaker:click {
-  color: red;
-  animation: shake 0.8s;
-}
-
-@keyframes shake{
-  0%{
-    transform: translateX(0)
-  }
-  25%{
-    transform: translateX(25px);
-  }
-    
-  50%{
-    transform: translateX(-25px);
-  }
-  100%{
-    transform: translateX(0px);
-  }
+  font-size: 2rem;
 }
 
 
 /* Media Queries //////////////////////////////////// */
 
-@media all and (min-width: 30em) {
-
+@media all and (max-width: 23.4em) {
   .hero {
-    padding-top: 15%;
+    padding-top: 50%;
   }
-
   .hero h1 {
-      font-size: 4.25rem;
+    font-size: 4.25rem;
   }
-
-  /* .pfp {
-    scale: 60%;
-    margin: -10%;
-  } */
-
   .hero h2 {
     font-size: 2rem;
   }
 }
 
-@media all and (min-width: 48em) {
-
+@media all and (min-width: 23.4em) {
   .hero {
-    padding-top: 12%;
+    padding-top: 45%;
   }
-
   .hero h1 {
-      font-size: 5rem;
+    font-size: 4.5rem;
   }
-
-  /* .pfp {
-    scale: 70%;
-    margin: -5%;
-  } */
-
   .hero h2 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+  }
+}
+
+@media all and (min-width: 26.5em) {
+  .hero {
+    padding-top: 35%; 
+  }
+  .hero h1 {
+    font-size: 4.75rem;
+  }
+  .hero h2 {
+    font-size: 2.25rem;
+  }
+}
+
+@media all and (min-width: 30em) {
+  .hero {
+    padding-top: 30%;
+  }
+  .hero h1 {
+    font-size: 5rem;
+  }
+  .hero h2 {
+    font-size:  2.5rem;
+  }
+}
+
+@media all and (min-width: 48em) {
+  .hero {
+    padding-top: 20%;
+  }
+  .hero h1 {
+      font-size: 6rem;
+  }
+  .hero h2 {
+    font-size: 3rem;
   }
 }
 
 @media all and (min-width: 62em) {
-
   .hero {
-    padding-top: 5%;
+    padding-top: 14%;
   }
-
   .hero h1 {
       font-size: 6.5rem;
   }
-
-  /* .pfp {
-    scale: 70%;
-    margin: -3%;
-  } */
-
   .hero h2 {
     font-size: 3.5rem;
   }
 }
 
 @media all and (min-width: 75em) {
-
   .hero {
-    padding-top: 4%;
+    padding-top: 11%;
   }
-
   .hero h1 {
       font-size: 7rem;
   }
-
-  /* .pfp {
-    scale: 80%;
-    margin: -2%;
-  } */
-
   .hero h2 {
     font-size: 3.75rem;
   }
 }
 
 @media all and (min-width: 87em) {
-
   .hero {
     padding-top: 8%;
   }
-
   .hero h1 {
       font-size: 7.5rem;
   }
-
-  /* .pfp {
-    scale: 90%;
-    margin: -1%;
-  } */
-
   .hero h2 {
     font-size: 4rem;
   }
@@ -274,66 +230,120 @@ h1 {
 /* about Me Component ////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .aboutMe {
-  padding: 20% 0;
-  /* height: 100vh; */
-  /* background-color: rgb(34,193,195); */
   color: white;
   background-color: #22c1c3;
 }
 
-.aboutMe-con {
+/* .aboutMe-con {
   margin-top: 5%;
-}
+} */
 
 .aboutMe h1 {
   text-align: center;
-  font-size: 3rem;
-  /* color: rgba(253,187,45,1); */
   color: rgb(254, 197, 74);
   text-shadow: 
     0 3px 1px rgb(193, 135, 21),
     0 5px 2px rgb(152, 108, 21);
 }
 
+
+
 .pfp {
   border-radius: 25%;
-  scale: 100%;
-  /* position: relative; */
-  /* top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-}
-
-.aboutMe h3 {
-  color: rgb(254, 197, 74);
-  text-align: center;
-}
-
-.aboutMe ul {
-  padding: 0; 
-}
-
-.aboutMe p {
-  font-size: 1rem;
-  margin: 0;
+  scale: 65%;
+  margin-bottom: 10%;
 }
 
 
-/* .stack-list {
-  width: 35%;
-} */
 
+@media all and (max-width: 23.4em) {
+  .aboutMe {
+    padding: 20% 0; 
+  }
+  .aboutMe h1 {
+    font-size: 3rem;
+  }
+  .aboutMe-row {
+    padding-top: 1%;
+  }
+  .pfp {
+    scale: 70%; 
+  }
+  .avatar-div {
+    margin: 0 0 -5%; 
+  }
+  .aboutMe p {
+    font-size: 1.1rem;
+  }
+}
 
+@media all and (min-width: 23.4em) {
+  .aboutMe {
+    padding: 18% 0;
+  }
+  .aboutMe h1 {
+    font-size: 3rem;
+  }
+  .pfp {
+    /* scale: 80%;  */
+  }
+  .avatar-div {
+    margin: 0 0 -5%; 
+  }
+  .aboutMe p {
+    font-size: 1.1rem;
+  }
+}
+
+@media all and (min-width: 26.5em){
+  .aboutMe {
+    padding: 15% 0;
+  }
+  .aboutMe h1 {
+    font-size: 3.25rem;
+  }
+  .pfp {
+    /* scale: 85%;  */
+  }
+  .avatar-div {
+    margin: 0 0 -5%; 
+  }
+  .aboutMe p {
+    font-size: 1.2rem;
+  }
+}
+
+@media all and (min-width: 30em) {
+  .aboutMe {
+    padding: 12% 0;
+  }
+  .aboutMe h1 {
+    font-size: 3.5rem;
+  }
+  .pfp {
+    /* scale: 90%;  */
+  }
+  .avatar-div {
+    margin: 0 0 -5%; 
+  }
+  .aboutMe p {
+    font-size: 1.3rem;
+  }
+}
 
 @media all and (min-width: 48em) {
-
-
-}
-
-@media all and (min-width: 48em) {
-
-
-
+  .aboutMe {
+    padding: 10% 0;
+  }
+  .aboutMe h1 {
+    font-size: 3.75rem;
+  }
+  .pfp {
+    /* scale: 90%;  */
+  }
+  .aboutMe p {
+    font-size: 1.3rem;
+  }
 }
 
 @media all and (min-width: 62em) {
@@ -354,31 +364,17 @@ h1 {
     padding: 3% 0;
   }
   
-  .aboutMe-con {
+  /* .aboutMe-con {
     margin-top: 1%;
-  }
+  } */
   
   .aboutMe h1 {
     font-size: 4.5rem;
   }
 
   .aboutMe p {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
-
-  /* .aboutMe h3 {
-    font-size: 2.5rem;
-  }
-  
-  .aboutMe li {
-    font-size: 1.5rem;
-  }
-
-  .stack-list {
-    width: 35%;
-  } */
-
-
 
 }
 
@@ -472,6 +468,21 @@ a:hover {
   opacity: 50%;
 }
 
+@media all and (max-width: 23.4em) {
+
+}
+
+@media all and (min-width: 23.4em) {
+
+}
+
+@media all and (min-width: 26.5em){
+
+}
+
+@media all and (min-width: 30em) {
+
+}
 
 @media all and (min-width: 48em) {
 
@@ -701,9 +712,19 @@ textarea {
     outline: none;
   }
 
+@media all and (max-width: 23.4em) {
 
-@media all and (min-width: 48em) {
+}
 
+@media all and (min-width: 23.4em) {
+
+}
+
+@media all and (min-width: 26.5em){
+
+}
+
+@media all and (min-width: 30em) {
 
 }
 
@@ -786,6 +807,22 @@ textarea {
 
 .footer-color a:hover {
   color: rgba(253,187,45,1);
+}
+
+@media all and (max-width: 23.4em) {
+
+}
+
+@media all and (min-width: 23.4em) {
+
+}
+
+@media all and (min-width: 26.5em){
+
+}
+
+@media all and (min-width: 30em) {
+
 }
 
 @media all and (min-width: 48em) {
