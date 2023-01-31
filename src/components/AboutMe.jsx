@@ -12,7 +12,12 @@ const AboutMe = () => {
             I am a junior web developer seeking opportunities for entry level work. I am primarily focused on 
             front end technologies, however I am interested in growing into a full stack developer as I continue
             to take on new projects, work, and professional experience. Check out my websites below to see what I 
-            have been creating.   
+            have been creating. Learn more about my professional history by viewing my 
+            <a 
+              class='resume-link'
+              href='https://docs.google.com/document/d/e/2PACX-1vQpYfn9y0OXR81iPTQllsZqNtI6qqIZobnlNpB5bhYGw0DhHaCbAvK38HgW7OcsU8O4brJNo-NgF__k/pub' 
+              target='_blank'> resume
+            </a>.    
           </p>
         </div>
         <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-center avatar-div'>
